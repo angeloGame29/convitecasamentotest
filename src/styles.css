@@ -431,3 +431,96 @@ html {
     display: flex;
     justify-content: center;
 }
+
+/* MOBILE */
+@media (max-width: 768px){
+
+    .secao{
+        padding:3rem 1rem;
+    }
+
+    .monogram{
+        font-size:2.8rem;
+        padding:2rem 0;
+    }
+
+    .names{
+        font-size:2rem;
+    }
+
+    .subtitle,
+    .vers,
+    .verss{
+        font-size:0.95rem;
+        line-height:1.5;
+    }
+
+    .date-row{
+        gap:10px;
+    }
+
+    .side span{
+        font-size:14px;
+    }
+
+    .center-date h2{
+        font-size:60px;
+    }
+
+    .center-date p{
+        font-size:18px;
+    }
+
+    .btn-icones{
+        font-size:2rem;
+        gap:10px;
+    }
+
+    .btn-icones a{
+        padding:.8rem;
+    }
+
+    .presente h2,
+    .localizacao h2{
+        font-size:2rem;
+    }
+
+    .presente-grids{
+        grid-template-columns:1fr;
+    }
+
+    .presente-cards{
+        min-height:500px;
+    }
+
+    .presente-imgs img{
+        max-width:180px;
+        height:180px;
+    }
+
+    .preco{
+        font-size:1.6rem;
+    }
+
+    .qr-code{
+        width:180px;
+    }
+
+    .acoes{
+        flex-direction:column;
+        width:100%;
+    }
+
+    .copiar-pix,
+    .voltar,
+    .caridade{
+        width:100%;
+    }
+
+    iframe{
+        width:100%;
+        height:300px;
+        border-radius:15px;
+    }
+
+}
